@@ -2,3 +2,4 @@
 
 export(eratos_options)
 export(eratos_reset)
+export(get_resources)

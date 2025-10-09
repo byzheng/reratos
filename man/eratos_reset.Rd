@@ -2,10 +2,10 @@
 % Please edit documentation in R/options.R
 \name{eratos_reset}
 \alias{eratos_reset}
-\title{Reset global options for pkg}
+\title{Reset global options for reratos}
 \usage{
 eratos_reset()
 }
 \description{
-Reset global options for pkg
+Reset global options for reratos
 }

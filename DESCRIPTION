@@ -19,6 +19,8 @@ RoxygenNote: 7.3.2
 Depends:
     R (>= 4.1.0)
 Suggests:
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    httptest2
 Imports:
-    settings
+    settings,
+    httr2
