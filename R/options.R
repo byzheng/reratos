@@ -104,7 +104,7 @@ eratos_options <- function(...) {
 }
 
 
-#' Reset global options for pkg
+#' Reset global options for reratos
 #'
 #' @export
 eratos_reset <- function() {
