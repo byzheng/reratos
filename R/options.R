@@ -30,7 +30,7 @@ ERATOS_OPTIONS <- settings::options_manager(
 #' the Eratos and Senaps APIs.
 #'
 #' @section Supported options:
-#' \itemize{
+#' \describe{
 #'   \item{\code{eratos.root}}{ Base URL for the Eratos Workspace API. }
 #'   \item{\code{eratos.key}}{ Eratos API key (client ID). }
 #'   \item{\code{eratos.secret}}{ Eratos API secret (client secret). }
@@ -93,10 +93,10 @@ eratos_options <- function(...) {
             # Update the nested structure
             current <- ERATOS_OPTIONS()[[group]]
             current[[subkey]] <- value
-            do.call(ERATOS_OPTIONS, setNames(list(current), group))
+            do.call(ERATOS_OPTIONS, stats::setNames(list(current), group))
         } else {
             # Handle top-level fields (e.g., default_api)
-            ERATOS_OPTIONS(setNames(list(value), key))
+            ERATOS_OPTIONS(stats::setNames(list(value), key))
         }
     }
 

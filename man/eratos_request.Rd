@@ -23,6 +23,8 @@ eratos_request(
 \item{query}{List of query parameters}
 
 \item{body}{Optional JSON body for POST/PUT requests}
+
+\item{...}{Additional arguments passed to `httr2::req_perform()`}
 }
 \value{
 Parsed JSON content or response object

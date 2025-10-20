@@ -23,7 +23,7 @@ the Eratos and Senaps APIs.
 }
 \section{Supported options}{
 
-\itemize{
+\describe{
   \item{\code{eratos.root}}{ Base URL for the Eratos Workspace API. }
   \item{\code{eratos.key}}{ Eratos API key (client ID). }
   \item{\code{eratos.secret}}{ Eratos API secret (client secret). }

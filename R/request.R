@@ -5,7 +5,7 @@
 #' @param method HTTP method, e.g. "GET", "POST", "PUT", "DELETE"
 #' @param query List of query parameters
 #' @param body Optional JSON body for POST/PUT requests
-#' @param ...
+#' @param ... Additional arguments passed to `httr2::req_perform()`
 #' @return Parsed JSON content or response object
 eratos_request <- function(type = c("eratos.workspace", "senaps.sensor", "senaps.datasource", "senaps.tmd"),
                         path = "/",

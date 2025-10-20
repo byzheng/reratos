@@ -23,5 +23,6 @@ Suggests:
     httptest2
 Imports:
     settings,
-    httr2
+    httr2,
+    stats
 URL: https://byzheng.github.io/reratos/
