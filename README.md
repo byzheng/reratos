@@ -1,5 +1,5 @@
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/byzheng/reratos/workflows/R-CMD-check/badge.svg)](https://github.com/byzheng/reratos/actions)
+[![R-CMD-check](https://github.com/byzheng/reratos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/reratos/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 # reratos
